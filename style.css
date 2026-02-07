@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    margin-top: 50px;
+    display: block;
+    align-items: center;
+    border: 1px solid black;
+    width: min-content;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: pink;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-inline: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+}
+
+img {
+    border: 1px solid black;
+}
